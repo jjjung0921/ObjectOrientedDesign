@@ -1,0 +1,14 @@
+/out/
+*.class
+*.log
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
