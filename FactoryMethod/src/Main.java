@@ -12,9 +12,9 @@ public class Main {
 
     static void configure() {
         if (System.getProperty("os.name").equals("Windows 10")) {
-            dialog = new WindowsDialog();
+            dialog = WindowsDialog.getInstance();
         } else{
-            dialog = new HtmlDialog();
+            dialog = HtmlDialog.getInstance();
         }
     }
 
